@@ -61,11 +61,11 @@ function showWinModal() {
 
 function resetGame() {
     const gameBoard = document.querySelector('.gameBoard');
-    gameBoard.innerHTML = ''; // Clear the board
+    gameBoard.innerHTML = ''; 
     flippedCards = [];
     matchedCards = [];
     canFlip = true;
-    startGame(); // Restart the game
+    startGame(); 
 }
 
 function startGame() {
